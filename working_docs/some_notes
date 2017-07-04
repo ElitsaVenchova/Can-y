@@ -1,0 +1,9 @@
+Вземане на изображенията в една директирия и добавяне на информацията необходима за Haar Classifier
+//http://docs.opencv.org/2.4.13.2/doc/user_guide/ug_traincascade.html
+ls > airplanes.txt | awk '{print $0, "1 0 0 100 100"}' airplanes.txt > airplanes_new.txt
+
+Хубаво видео
+https://www.youtube.com/watch?v=WEzm7L5zoZE
+
+Tutorial
+https://blog.openshift.com/day-12-opencv-face-detection-for-java-developers/
